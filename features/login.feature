@@ -16,6 +16,6 @@ Feature: The apoidea media web page
     Then I should see a flash message saying <message>
 
     Examples:
-      | username | email                |content    | message         |
-      | asdfds   | fdsafsa              |asdfdsaf   | 立即查詢         |
-      | asdfdsfd | fdsafsa@hotmail.com  |asdfdsaf   | 立即查詢         |
+      | username | email                |content    | message                                         |
+      | asdfds   | fdsafsa              |asdfdsaf   | 我們會在一個工作天內回覆你，謝謝你的查詢 !         |
+      | asdfdsfd | fdsafsa@hotmail.com  |asdfdsaf   | 我們會在一個工作天內回覆你，謝謝你的查詢 !         |
