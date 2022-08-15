@@ -10,7 +10,7 @@ class SecurePage extends Page {
      * define selectors using getter methods
      */
     get flashAlert () {
-        return $('[class*="d-md-flex"]');
+        return $('.d-md-flex*=我們會在一個工作天內回覆你，謝謝你的查詢 !');
     }
 }
 
