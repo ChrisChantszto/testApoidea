@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": ".//*[contains(@class, \"custom-control-label\") and normalize-space() = \"Business Digest\"]"
+}
